@@ -1,0 +1,85 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Lindsey M. Crocker}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{103 Easton Avenue}
+ \moveleft.5\hoffset\centerline{New Brunswick, NJ 08901}
+ \moveleft.5\hoffset\centerline{(201)650-4930 - lindsey.crocker@rutgers.edu - github.com/yesdnil5}
+
+
+\begin{resume}
+
+\section{EDUCATION} Rutgers University, New Brunswick \hfill New Brunswick, NJ \\
+		{\sl Bachelor of Science,} Computer Science \hfill May, 2014\\
+                {\sl Bachelor of Arts,} Psychology \\
+		Minor: Cognitive Science \\
+		GPA: 3.42
+ 
+ 
+\section{RELEVANT \\ COURSES}
+		\begin{tabular}{ l l l}
+		 Discrete Structures & Data Structure & Introduction to Artificial- \\
+		 Linear Algebra & Computer Architecture & Intelligence \\
+		 Quantitative Methods & Systems Programming & Internet Technology \\
+		\end{tabular}
+
+ 
+\section{EXPERIENCE} {\sl Software Development Engineer Intern} \hfill Summer 2013 \\
+                Amazon.com, Amazon Fresh Website, Seattle, WA
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Worked as an Intern on Amazon Fresh's website development team
+                \item Designed, implemented, and maintained NOSQL and MySQL databases
+                \item Implemented a service in Java using Spring and Hibernate
+                \end{itemize}
+ 
+                {\sl Instructional Lab Assistant Manager} \hfill            September 2011 - Present \\
+                Laboratory of Computer Science Research, Rutgers University, Piscataway, NJ
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Manage employee schedules and train new employees
+                 \item Monitor the clusters of lab machines, and troubleshoot any problems that occur to ensure availability of lab machines
+                 \item  Answer students questions about introductory programming courses in Java, C and Linux
+                 \end{itemize} 
+                 
+                {\sl Research Assistant} \hfill        February 2013 - Present \\
+                Department of Psychology, Rutgers University, Piscataway, NJ
+                  \begin{itemize} \itemsep -2pt
+                   \item Worked directly with graduate students and met with my principal investigator, Dr. Stormswold, once a week
+		    \item Wrote a python script using Natural Language Toolkit to simulate reading comprehension
+		    \item Currently running experiments on reading comprehension of nonsense words
+                   \end{itemize} 
+ 
+\section{AWARDS AND\\ PUBLICATIONS}
+		\begin{itemize} \itemsep -2pt
+		 \item School of Arts and Sciences Honors Program
+		 \item Dean's List: Fall 2011, Fall 2012, Spring 2013
+		\end{itemize}
+
+
+\section{EXTRA-CURRICULAR \\ ACTIVITIES}             
+            Undergraduate Student Alliance of Computer Scientists (USACS)\\
+            {\sl Secretary} \hfill Spring 2011 - Present
+            \begin{itemize} \itemsep -2pt
+             \item Collaborate with members to organize campus-wide events as well as design flyers using Adobe Photoshop
+             \item Help run events and attend weekly meetings
+             \item Successfully organized a biannual 24 hour hackathon called HackRU by receiving donations and sponsorships from technology related companies
+            \end{itemize}
+
+ 
+
+\end{resume}
+\end{document}
+
+
+
+
